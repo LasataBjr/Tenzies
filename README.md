@@ -1,16 +1,69 @@
-# React + Vite
+# Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive dice game built with **React**. Roll the dice until all ten dice display the same number. Click individual dice to hold their values between rolls and strategically reach the winning combination.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Roll ten dice at once
+- Hold individual dice between rolls
+- Win detection when all dice match
+- New Game button after winning
+- Built using React functional components
+- Clean and responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+
+---
+
+## Project Structure
+
+```
+src/
+│── components/
+│   └── Die.jsx
+│
+│── App.jsx
+│── index.css
+│── main.jsx
+```
+
+---
+
+## How to Play
+
+1. Click **Roll** to roll all unlocked dice.
+2. Click a die to **hold** its current value.
+3. Held dice will not change during the next roll.
+4. Continue rolling until all dice show the same number.
+5. Once all dice match and are held, you win!
+
+---
+
+## What I Learned
+
+This project helped me understand:
+
+- React Components
+- Props
+- State Management with `useState`
+- Lists and Keys
+- Event Handling
+- Conditional Rendering
+- Side Effects with `useEffect`
+- Rendering Dynamic UI
+- Working with Arrays using `map()`
+
+---
+
+## License
+
+This project was built for learning purposes while studying React.
